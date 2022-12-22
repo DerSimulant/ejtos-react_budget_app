@@ -29,24 +29,18 @@ const Budget = () => {
     }
     };
     
-      //  return budget = event.target.value
-      //  }
-    //if(budget < remaining) {
-       // alert("The value cannot exceed remaining funds  £"+remaining);
-        //setBudget("");
-        //return;
-   // }
+    
 
     return (
         <div className='alert alert-secondary'>
-            <span>Budget: {currency}{<input
+            Budget: {currency}{<input
                         type='number'
                         id='budget'
                         value={budget}
-                        style={{ marginLeft: '2rem' , size: 2}}
+                        style={{ marginLeft: '2rem' , size: 200}}
                         onChange={handleChange}
                         onKeyDown={handleKeyDown}>
-                        </input>}</span>
+                        </input>}
         </div>
     );
 };
