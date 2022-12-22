@@ -18,7 +18,7 @@ const Currency = (props) => {
     return (
         
 
-            <div  style={{ marginLeft: '2rem'}}>
+            <div >
                   
                
    
