@@ -18,12 +18,12 @@ const Currency = (props) => {
     return (
         
 
-            <div className='alert alert-success' style={{ marginLeft: '2rem'}}>
-                  <div className="input-group-prepend">
-                <label className='alert alert-success' htmlFor="inputGroupSelect01">Currency</label>
-                </div>
+            <div  style={{ marginLeft: '2rem'}}>
+                  
+               
+   
                 <select className='alert alert-success' id="inputGroupSelect01" onChange={(event) => setCurrency(event.target.value)}onKeyDown={handleKeyDown}>
-                
+                <option defaultValue>Select Currency</option>
                 <option value="$" name="dollar"> Dollar</option>
                 <option value="Pf" name="pound">Pound</option>
                 <option value="€" name="euro">Euro</option>
