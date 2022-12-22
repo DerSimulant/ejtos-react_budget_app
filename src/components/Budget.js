@@ -37,7 +37,7 @@ const Budget = () => {
                         type='number'
                         id='budget'
                         value={budget}
-                        style={{ marginLeft: '2rem' , size: 200}}
+                        style={{ marginLeft: '0.3rem'}}
                         onChange={handleChange}
                         onKeyDown={handleKeyDown}>
                         </input>}
